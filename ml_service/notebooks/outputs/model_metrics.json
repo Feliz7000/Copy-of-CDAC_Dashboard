@@ -1,0 +1,23 @@
+{
+  "logreg": {
+    "test_accuracy": 0.6409,
+    "test_precision_macro": 0.6636,
+    "test_recall_macro": 0.5993,
+    "test_f1_macro": 0.6206,
+    "test_roc_auc_ovr": 0.7341
+  },
+  "rf": {
+    "test_accuracy": 0.7182,
+    "test_precision_macro": 0.7363,
+    "test_recall_macro": 0.627,
+    "test_f1_macro": 0.6417,
+    "test_roc_auc_ovr": 0.8629
+  },
+  "xgboost": {
+    "test_accuracy": 0.7273,
+    "test_precision_macro": 0.7385,
+    "test_recall_macro": 0.6982,
+    "test_f1_macro": 0.7107,
+    "test_roc_auc_ovr": 0.8182
+  }
+}

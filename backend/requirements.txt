@@ -1,0 +1,48 @@
+# Django Core
+Django==5.2.1
+djangorestframework==3.16.0
+django-filter==24.3
+django-cors-headers==4.7.0
+django-redis==5.4.0
+django-celery-beat==2.9.0
+django-celery-results==2.5.1
+
+# Database — psycopg3 (recommended for Django 5.x + PostgreSQL 16)
+psycopg[binary]==3.2.6
+
+# Authentication
+djangorestframework-simplejwt==5.5.1
+PyJWT==2.12.1
+
+# Async Tasks
+celery==5.4.0
+redis==5.2.1
+flower==2.0.1
+
+# Excel & Data
+openpyxl==3.1.5
+pandas==2.2.3
+xlrd==2.0.1
+joblib==1.5.1
+scikit-learn==1.6.1
+
+# Server
+gunicorn==22.0.0
+
+# Config & Utils
+pydantic==2.11.4
+python-dotenv==1.1.0
+requests==2.32.3
+python-dateutil==2.9.0
+
+# Files & Exports
+Pillow==11.2.1
+reportlab==4.4.1
+
+# Monitoring
+prometheus-client==0.21.1
+
+# Testing
+pytest==8.3.5
+pytest-django==4.11.1
+msal==1.31.1

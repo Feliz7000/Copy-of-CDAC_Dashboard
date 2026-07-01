@@ -1,0 +1,146 @@
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+backend/media/
+backend/staticfiles/
+backend/data/raw/
+
+# ─── Environment & secrets (never commit) ─────────────────────────────────────
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+backend/.env.local
+backend/.env.local.bak
+secrets.json
+local.env
+.env.dev
+
+# ─── Node / Next.js ───────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+frontend/.next/
+frontend/out/
+.next/
+out/
+*.pem
+
+# Keep application source under frontend/lib (do NOT use a bare "lib/" rule)
+frontend/node_modules/
+
+# ─── IDE & OS ─────────────────────────────────────────────────────────────────
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+*.sublime-project
+*.sublime-workspace
+
+# ─── Testing & tooling ────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+prof/
+profile/
+
+# ─── Celery / Redis ───────────────────────────────────────────────────────────
+celerybeat-schedule
+dump.rdb
+
+# ─── Docker (local overrides only) ───────────────────────────────────────────
+docker-compose.override.yml
+
+# ─── ML service artifacts (regenerate locally) ────────────────────────────────
+ml_service/artifacts/
+ml_service/notebooks/outputs/
+ml_service/data/processed/
+ml_service/ml_service/
+*.joblib
+*.parquet
+
+# ─── Data imports / uploads (sensitive or bulky) ──────────────────────────────
+/tmp/
+/logs/
+excel_imports/
+uploads/
+media/
+data/
+demo_data_new/
+backend/ml_inputs/
+temp_*
+*.tmp
+*.temp
+*-tmp/
+
+# Optional: uncomment to keep spreadsheets out of git
+# *.xlsx
+# *.xls
+# *.csv
+
+# ─── Local docs, data, scripts, Power BI (not pushed to remote) ─────────────────
+Docs/
+scripts/
+CDAC.pbix
+
+# ─── Power BI (extracted inspect temp) ────────────────────────────────────────
+.pbix_extract/
+CDAC.zip
+*.pbix.bak
+
+# ─── Cursor / local tooling ───────────────────────────────────────────────────
+.cursor/
+agent-transcripts/
+mcps/
+assets/
+
+# ─── Backup files ─────────────────────────────────────────────────────────────
+*.bak
+*.backup

@@ -1,0 +1,33 @@
+{
+  "cv_folds": 5,
+  "oof_metrics": {
+    "accuracy": 0.6636,
+    "precision_macro": 0.7006,
+    "recall_macro": 0.6282,
+    "f1_macro": 0.6579,
+    "roc_auc_ovr": 0.8216
+  },
+  "train_metrics": {
+    "accuracy": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_macro": 1.0,
+    "roc_auc_ovr": 1.0
+  },
+  "test_metrics": {
+    "accuracy": 0.5909,
+    "precision_macro": 0.65,
+    "recall_macro": 0.4759,
+    "f1_macro": 0.5188,
+    "roc_auc_ovr": 0.7754
+  },
+  "train_minus_test_gap": {
+    "accuracy_gap_train_minus_test": 0.4091,
+    "precision_macro_gap_train_minus_test": 0.35,
+    "recall_macro_gap_train_minus_test": 0.5241,
+    "f1_macro_gap_train_minus_test": 0.4812,
+    "roc_auc_ovr_gap_train_minus_test": 0.2246
+  },
+  "oof_predictions_file": "ml_service\\notebooks\\outputs\\oof_predictions_Aug24.csv",
+  "confusion_matrix_file": "ml_service\\notebooks\\outputs\\confusion_matrix_test.csv"
+}
